@@ -8,14 +8,14 @@ This module handles all booking operations including appointment scheduling, wor
 
 ## Features
 
-- ✅ **Appointment Management**: Complete booking lifecycle management
-- ✅ **State Workflow**: Draft → Confirmed → Done with Cancel option
-- ✅ **Overlap Detection**: Automatic time conflict checking
-- ✅ **Calendar Views**: Visual scheduling and time management
-- ✅ **Kanban Board**: Drag-and-drop workflow management
-- ✅ **Chatter Integration**: Customer communication tracking
-- ✅ **Activity Management**: Follow-up tasks and reminders
-- ✅ **Automatic Numbering**: Sequential appointment references (BOOK/YYYY/NNNN)
+-  **Appointment Management**: Complete booking lifecycle management
+-  **State Workflow**: Draft → Confirmed → Done with Cancel option
+-  **Overlap Detection**: Automatic time conflict checking
+-  **Calendar Views**: Visual scheduling and time management
+-  **Kanban Board**: Drag-and-drop workflow management
+-  **Chatter Integration**: Customer communication tracking
+-  **Activity Management**: Follow-up tasks and reminders
+-  **Automatic Numbering**: Sequential appointment references (BOOK/YYYY/NNNN)
 
 ## Module Information
 
@@ -158,12 +158,6 @@ Full CRUD access granted to `base.group_user` (Internal Users).
 - **om_service_master**: Master data (required)
 - **om_website_booking**: Website frontend (PHASE 3)
 
-## Development Notes
-
-- Uses Odoo 18.0 `<list>` view type (not `<tree>`)
-- Follows PEP8 coding standards
-- Comprehensive docstrings and comments
-- All constraint messages are user-friendly
 
 ## Support
 
